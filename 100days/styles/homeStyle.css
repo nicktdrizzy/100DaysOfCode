@@ -1,0 +1,78 @@
+#twitter {
+	position: absolute;
+	top: 2%;
+	left: 95%;
+	color: #00aced;
+}
+
+#linkedIn {
+	position: absolute;
+	top: 1.7%;
+	left: 93%;
+	color: #007bb6;
+}
+
+body
+{
+    border: 5px solid #D5D5D5;
+	height: 97.5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+}
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 350%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+hr {
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  width: 75%;
+}
+
+
+#days {
+	position: absolute;
+	left:20%;
+	top: 30%;
+}
+
+#about {
+	position: absolute;
+	left:50%;
+	top: 30%;
+}
+
+#currentProject {
+	position: absolute;
+	top: 55%;
+	left: 20%;
+	width: 50%;
+	text-align: center;
+	font-size: 150%
+}
+
+#textBoxBG {
+	width: 500px;
+	background: black;
+}
+
+.textBox {
+	width: 20%;
+	padding: 2%;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
