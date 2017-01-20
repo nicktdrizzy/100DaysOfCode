@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,13 +15,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <script src="https://use.fontawesome.com/c7d9866f19.js"></script>
-
     <link href="styles/homeStyle.css" rel="stylesheet">
+    <script type="text/javascript" src="test.js"></script>
   </head>
 
   <body>
         <section>
-            <div class="content">
+            <div class="content" id="home">
                 <h1>Hi, I'm Nick Thompson</h1>
                 <small>and I'm a software engineer!</small>
                 <p><a href="#about">About</a></p><p><a href="#projects">Projects</a></p><p><a href="#contact">Contact</a></p>
@@ -31,12 +32,14 @@
                 <h1>About my life!</h1>
                 <p class="text">I am currently studying Software Engineering at Michigan Technological University, and hope to graduate in the spring of 2020.</p>
             </div><!-- /.about -->
+            <a href="#home"><i class="fa fa-arrow-up fa-2x" aria-hidden="true" id="aboutArrow"></i></a>
         </section>
         <section class="projects">
             <div class="content" id="projects">
                 <h1>My projects</h1>
                 <p class="text">Here is where my future projects will be placed, for now though, this site is it!</p>
             </div><!-- /.projects -->
+            <a href="#home"><i class="fa fa-arrow-up fa-2x" aria-hidden="true" id="projectsArrow"></i></a>
         </section>
         <section class="contact">
             <div class="content" id="contact">
@@ -44,6 +47,7 @@
                 <p class="text">nickdthomp@gmail.com</p>
                 <a href="http://www.twitter.com/nick_thompsonn"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a> <a href="https://www.linkedin.com/in/nick-thompson-563193128/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
             </div><!-- ./contact -->
+            <a href="#home"><i class="fa fa-arrow-up fa-2x" aria-hidden="true" id="contactArrow"></i></a>
         </section>
   </body>
 </html>

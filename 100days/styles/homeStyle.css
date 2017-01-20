@@ -31,15 +31,15 @@ small {
 }
 
 .about {
-	background-color: #890c66; 
+	background-color: #4EC5C1; 
 }
 
 .projects {
-	background-color: #180a75;
+	background-color: #EC576B;
 }
 
 .contact {
-	background-color: #890909;
+	background-color: #E5E338;
 }
 
 section {
@@ -48,7 +48,7 @@ section {
   display: table;
   margin: 0;
   max-width: none;
-  background-color: #373B44;
+  background-color: #FC4A1A;
   height: 100vh;
 }
 
@@ -63,4 +63,25 @@ a {
 
 a:hover {
 	color:grey;
+}
+
+#aboutArrow {
+	color: white;
+	text-shadow: 2px 2px black;
+	position: absolute;
+	top: 190%;
+}
+
+#projectsArrow {
+	color: white;
+	text-shadow: 2px 2px black;
+	position: absolute;
+	top: 290%;
+}
+
+#contactArrow {
+	color: white;
+	text-shadow: 2px 2px black;
+	position: absolute;
+	top: 390%;
 }
