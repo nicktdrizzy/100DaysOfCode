@@ -31,9 +31,16 @@ small {
 }
 
 .about {
-	background-color: #FE4B74; 
+	background-color: #890c66; 
 }
 
+.projects {
+	background-color: #180a75;
+}
+
+.contact {
+	background-color: #890909;
+}
 
 section {
   width: 100%;
@@ -43,8 +50,17 @@ section {
   max-width: none;
   background-color: #373B44;
   height: 100vh;
-  
-  &:nth-of-type(2n) {
-    background-color: #FE4B74;
-  }
+}
+
+.text {
+	font-size: 200%;
+}
+
+a {
+	text-decoration: underline;
+	color: white;
+}
+
+a:hover {
+	color:grey;
 }
